@@ -1,0 +1,54 @@
+.container {
+    margin: 15% 35%;
+    border: 5px solid azure;
+    padding: 15px 20px;
+    overflow:hidden;
+}
+
+h1 {
+    text-align: center;
+}
+
+label {
+    color: black;
+    font-weight: bold;
+    padding: 10px 15px;
+    margin-bottom: 20px
+}
+
+input {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+.button-group {
+    float:right;
+}
+
+.button {
+  background-color:  #008CBA; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.btn1 {
+    background-color: #555555;
+}
+
+#result {
+    border-radius: 10px;
+    background-color: azure;
+    margin-top: 50px;
+    padding: 15px;
+    width: 90%;
+    height: 25px;
+}
