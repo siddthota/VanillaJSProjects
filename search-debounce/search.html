@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Debouncing</title>
+    <meta name="viewport" content="width=device-width">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="styles.css" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <div class="main-menu">
+                <ul class="main-menu-items">
+                    <li class="main-menu-item"><a class="home" href="#"><i class="fa fa-home"></i>&nbsp; Home</a></li>
+                    <li class="main-menu-item"><input type="search" class="search" id="search-text" placeholder="search here" /></li>
+                    <li class="main-menu-item"><a class="support" href="#"><i class="fa fa-question-circle"></i>&nbsp; Support</a></li>
+                </ul>
+                <div class="sub-menu">
+                    <div class="sub-menu-top">
+                        <h3 class="heading">Top Categories</h3>
+                        <ul class="sub-menu-top-items">
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>  
+    
+        <p id="search-term">Your search term is: </p>
+        <h3 class="results"> Results: </h3>
+        <ul id="matches"></ul>
+    
+        <h2 class="results">List of Search Items in Dummy DB</h2>
+        <div id="searchdb">
+        </div>
+    </div>
+    <script src="search.js"></script>
+</body>
+</html>
