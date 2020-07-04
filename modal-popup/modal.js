@@ -1,6 +1,7 @@
 let modalpopup = document.querySelector(".modal-popup");
 let button = document.querySelector("#modal-button");
 let X = document.querySelector(".X");
+let container = document.querySelector(".container");
 let mainbody = document.querySelector(".body-section");
 let orangebtn = document.querySelector("#orange");
 let blackbtn = document.querySelector("#black");
@@ -10,7 +11,7 @@ let modalText = document.querySelector(".modal-text");
 
 button.addEventListener("click", openModal);
 X.addEventListener("click", closeModal);
-modalpopup.addEventListener("click", closeModalOutsideClick);
+container.addEventListener("click", closeModalOutsideClick);
 orangebtn.addEventListener("click", orangeClicked);
 blackbtn.addEventListener("click", blackClicked);
 bluebtn.addEventListener("click", blueClicked);
@@ -28,7 +29,7 @@ function closeModal() {
 }
 
 function closeModalOutsideClick(e) {
-    if(e.target.className == 'modal-popup') {
+    if(e.target.className == 'modal-popup' || e.target.className == "body-section") {
         modalpopup.style.display = "none";
         mainbody.style.filter = "blur(0px)";
     }
