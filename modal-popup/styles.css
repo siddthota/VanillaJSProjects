@@ -1,0 +1,116 @@
+.container {
+    width: 80%;
+    height: 80%;
+    background: #eaeaea;
+    position: absolute;
+    top: 15%;
+    left: 15%;
+    right: 15%;
+    margin-top: -50px;
+    margin-left: -100px;
+    background-image: url('bubbles.jpg');
+}
+
+.body-section {
+    height: 75vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.body-text {
+    color: #fb995e;
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+.button {
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    padding: 1em 2em;
+}
+
+.main {
+    padding: 1em 2em;
+    background: #00a1e0;
+    font-size: 16px;
+}
+
+.modal-popup {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    display: none;
+}
+
+.modal-content {
+    background-color: #eaeaea;
+    width: 60%;
+    height: 30%;
+    border-radius: 4px;
+    padding: 15px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    animation-name: modalpopup;
+    animation-duration: 0.5s;
+    z-index: 2;
+}
+
+/* Main trick for modal animation */
+ @keyframes modalpopup {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.modal-text {
+    margin: 20px;
+    padding: 20px
+}
+
+.button-group {
+    float: left;
+    margin-top: 25px;
+    margin-left: 75px;
+}
+
+.orange {
+    background: #fd8904;
+    font-size: 12px;
+}
+
+.blue {
+    background:  #04cbfd;
+    font-size: 12px;
+}
+
+.black {
+    background: #000000;
+    font-size: 12px;
+}
+
+.green {
+    background:  #9cdd2d;
+    font-size: 12px;
+}
+
+
+.X {
+    position: absolute;
+    cursor: pointer;
+    top: 2px;
+    right: 10px;
+    font-size: 30px;
+}
+
+
+

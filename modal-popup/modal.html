@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Modal Pop-up using HTML/CSS and Vanilla JS</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div class="body-section">
+                <div class="body-text">Click on the button below to view the Modal Pop-up designed in HTML/CSS/JS</div>
+                <button id="modal-button" class="button main">Click Here for Modal</button>
+            </div>
+
+            <div class="modal-popup">
+                <div class="modal-content">
+                    <h2>Welcome to the Model, Click on the buttons to convert the below section to the respective button's color</h2>
+                    <div class="modal-text">Hello this is modal text and the color selected is: <span class="selected-color"></span> </div>
+                    <div class="button-group">
+                        <button id="orange" class="button orange">Orange</button>
+                        <button id="black" class="button black">Black</button>
+                        <button id="blue" class="button blue">Blue</button>
+                        <button id="green" class="button green">Green</button>
+                    </div>
+                    <span class="X">&times;</span>
+                </div>
+            </div>
+        </div>
+
+        <script src="modal.js"></script>
+    </body>
+</html>
