@@ -20,6 +20,6 @@ Projects based on HTML/CSS and Vanilla JS
 7. Pagination
 8. Infinite Scrolling
 9. Custom Datepicker
-10.Image Carousel
+10. Image Carousel
 and more :)
 
